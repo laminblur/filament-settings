@@ -2,6 +2,12 @@
 
 All notable changes to `filament-settings` will be documented in this file.
 
+## 2.3.1 - 2026-03-17
+
+### Added
+
+-   Added support for Laravel 13.
+
 ## 2.3.0 - 2026-01-20
 
 ### Added

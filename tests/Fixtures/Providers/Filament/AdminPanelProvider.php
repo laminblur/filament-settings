@@ -39,7 +39,9 @@ class AdminPanelProvider extends PanelProvider
                 StartSession::class,
                 AuthenticateSession::class,
                 ShareErrorsFromSession::class,
-                VerifyCsrfToken::class,
+                class_exists('Illuminate\\Foundation\\Http\\Middleware\\PreventRequestForgery')
+                    ? 'Illuminate\\Foundation\\Http\\Middleware\\PreventRequestForgery'
+                    : VerifyCsrfToken::class,
                 SubstituteBindings::class,
                 DisableBladeIconComponents::class,
                 DispatchServingFilamentEvent::class,
