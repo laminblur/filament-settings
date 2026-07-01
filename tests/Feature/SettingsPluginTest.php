@@ -3,10 +3,10 @@
 declare(strict_types=1);
 
 use Livewire\Livewire;
+use MangoldSecurity\Settings\Facades\Setting;
 use Outerweb\FilamentSettings\SettingsPlugin;
 use Outerweb\FilamentSettings\Tests\Fixtures\Filament\Pages\Settings\Settings;
 use Outerweb\FilamentSettings\Tests\TestCase;
-use MangoldSecurity\Settings\Facades\Setting;
 
 it('can be added to a panel', function () {
     expect(filament()->hasPlugin(SettingsPlugin::get()->getId()))->toBeTrue();
