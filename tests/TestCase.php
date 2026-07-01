@@ -20,7 +20,7 @@ use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use Outerweb\FilamentSettings\FilamentSettingsServiceProvider;
 use Outerweb\FilamentSettings\Tests\Fixtures\Providers\Filament\AdminPanelProvider;
-use MangoldSecurity\Settings\SettingsServiceProvider;
+use Outerweb\Settings\SettingsServiceProvider;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
 
 class TestCase extends Orchestra

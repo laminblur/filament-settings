@@ -22,13 +22,13 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/MangoldSecurity/settings.git"
+            "url": "/tmp/agent_a0e27059-dd25-4a86-af77-766db54e729e/settings-v2.0.3"
         }
     ],
     "require": {
         "php": "^8.3",
         "filament/filament": "^4.0|^5.0",
-        "mangoldsecurity/settings": "^2.0",
+        "outerweb/settings": "^2.0",
         "spatie/laravel-package-tools": "^1.16"
     },
     "require-dev": {
