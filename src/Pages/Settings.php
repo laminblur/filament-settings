@@ -22,8 +22,8 @@ use Filament\Support\Exceptions\Halt;
 use Filament\Support\Facades\FilamentView;
 use Filament\Support\Icons\Heroicon;
 use Illuminate\Contracts\Support\Htmlable;
-use Outerweb\Settings\Facades\Setting;
-use Outerweb\Settings\Models\Setting as SettingModel;
+use MangoldSecurity\Settings\Facades\Setting;
+use MangoldSecurity\Settings\Models\Setting as SettingModel;
 use Throwable;
 
 /**
