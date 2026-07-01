@@ -6,7 +6,7 @@ use Livewire\Livewire;
 use Outerweb\FilamentSettings\SettingsPlugin;
 use Outerweb\FilamentSettings\Tests\Fixtures\Filament\Pages\Settings\Settings;
 use Outerweb\FilamentSettings\Tests\TestCase;
-use Outerweb\Settings\Facades\Setting;
+use MangoldSecurity\Settings\Facades\Setting;
 
 it('can be added to a panel', function () {
     expect(filament()->hasPlugin(SettingsPlugin::get()->getId()))->toBeTrue();
