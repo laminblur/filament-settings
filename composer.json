@@ -22,7 +22,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "/tmp/agent_a0e27059-dd25-4a86-af77-766db54e729e/settings-v2.0.3"
+            "url": "https://github.com/MangoldSecurity/settings"
         }
     ],
     "require": {
